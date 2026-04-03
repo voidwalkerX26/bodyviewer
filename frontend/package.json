@@ -1,0 +1,32 @@
+{
+  "name": "voxelfit-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.x",
+    "@react-three/fiber": "^8.x",
+    "next": "^14.x",
+    "next-auth": "^4.x",
+    "react": "^19.x",
+    "react-dom": "^19.x",
+    "three": "^0.x",
+    "zustand": "^4.x"
+  },
+  "devDependencies": {
+    "@types/node": "^20.x",
+    "@types/react": "^19.x",
+    "@types/react-dom": "^19.x",
+    "eslint": "^8.x",
+    "eslint-config-next": "^14.x",
+    "postcss": "^8.x",
+    "prettier": "^3.x",
+    "tailwindcss": "^3.x",
+    "typescript": "^5.x"
+  }
+}

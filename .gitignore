@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build
+.next/
+out/
+dist/
+build/
+
+# Backend
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ML model weights (large files)
+backend/app/ml/models/*
+!backend/app/ml/models/.gitkeep
+
+# Environment
+.env
+.env.*.local
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
